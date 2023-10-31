@@ -1,0 +1,117 @@
+.item {
+    color: white;
+    margin: 10px;
+    border-radius: 6px;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    width: auto;
+    height: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+.ex1 {
+    background-color: rgb(83, 182, 122);
+}
+.ex2 {
+    background-color: rgb(84, 129, 228);
+}
+.ex3 {
+    background-color: rgb(162, 162, 162);
+}
+.ex4 {
+    background-color: rgb(76, 159, 181);
+}
+
+.view-page-ach {
+    text-decoration: none;
+    background-color: rgb(76, 159, 181);
+}
+
+.view-page-ach:hover {
+    background-color: rgba(76, 158, 181, 0.708);
+}
+
+.item-container {
+    display: flex;
+}
+
+.item-container ul li {
+    float: left;
+}
+
+.list-section {
+    margin-top: 10px;
+    border-radius: 10px;
+    border-top: 1px solid rgb(214, 212, 212);
+    border-left: 1px solid rgb(214, 212, 212);
+    border-right: 1px solid rgb(214, 212, 212);
+}
+
+.list-section li {
+    padding: 10px;
+}
+.info-section {
+    width: 67vw;
+    margin-left: 20px;
+}
+
+.fork {
+    width: 24px;
+    height: 24px;
+}
+
+.repo-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.repo-list li {
+    /* border: 1px solid black; */
+    text-decoration: none;
+    background-color: rgb(139, 189, 64);
+    color: white;
+
+    border-radius: 6px;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+
+    width: 180px;
+    height: 180px;
+}
+
+.repo-name {
+    font-weight: 900;
+}
+
+.repo-list li a {
+    text-decoration: none;
+    color: white;
+    /*background-color: rgb(139, 189, 64);
+    
+
+    border-radius: 6px;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+
+    width: 180px;
+    height: 180px; */
+}
+
+.repo-list li:hover {
+    background-color: rgb(106, 144, 48);
+}
+
+.user-image img {
+    width: 230px;
+    height: 230px;
+}
+
+.table-list-info li {
+    border-bottom: 1px solid rgb(214, 212, 212);
+}
